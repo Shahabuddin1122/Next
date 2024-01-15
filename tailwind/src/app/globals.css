@@ -15,6 +15,22 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-body {
+@layer components {
+  .btn-purple {
+    @apply my-4 px-4 py-1 border rounded-full border-purple-500 text-sm text-purple-700 space-y-2 hover:bg-purple-300;
+  }
+  .btn-green {
+    @apply my-4 px-4 py-1 border rounded-full border-green-500 text-sm text-green-700 space-y-2 hover:bg-green-300;
+  }
+  .h-img {
+    height: 34rem;
+  }
+  .pad-text {
+    padding-top: 13rem;
+  }
+  .inset-text {
+    width: 469px;
+    top: 50%;
+    right: 13%;
+  }
 }
